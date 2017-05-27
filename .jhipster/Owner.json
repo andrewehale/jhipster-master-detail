@@ -1,0 +1,25 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "pet",
+            "otherEntityName": "pet",
+            "otherEntityRelationshipName": "owner"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20170526191625",
+    "entityTableName": "owner",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}
